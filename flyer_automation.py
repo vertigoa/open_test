@@ -214,6 +214,28 @@ def maybe_improve_copy(payload: Dict, model: str = "gpt-4.1-mini") -> Dict:
         return payload
 
 
+
+
+def render_assets_with_playwright(html_path: Path, out_path: Path, width: int = 1200, height: int = 1800, pdf: bool = False) -> None:
+    """Render HTML flyer to PNG/PDF using Playwright."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception as exc:  # pragma: no cover
+        raise RuntimeError("Playwright is required for image/pdf export. Install with: pip install playwright") from exc
+
+    uri = html_path.resolve().as_uri()
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(viewport={"width": width, "height": height})
+        page.goto(uri, wait_until="networkidle")
+        if pdf:
+            page.pdf(path=str(out_path), print_background=True, format="Letter")
+        else:
+            page.screenshot(path=str(out_path), full_page=True)
+        browser.close()
+
 def write_outputs(out_dir: Path, payload: Dict, print_html: str, social_html: str) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "flyer_content.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
@@ -227,6 +249,9 @@ def main() -> None:
     parser.add_argument("--brand", type=Path, default=None, help="Brand JSON overrides")
     parser.add_argument("--out", type=Path, default=Path("output"), help="Output directory")
     parser.add_argument("--improve-copy", action="store_true", help="Use OpenAI API to improve copy")
+    parser.add_argument("--export-print-png", action="store_true", help="Render output/flyer_print.png with Playwright")
+    parser.add_argument("--export-social-png", action="store_true", help="Render output/flyer_social.png with Playwright")
+    parser.add_argument("--export-print-pdf", action="store_true", help="Render output/flyer_print.pdf with Playwright")
     args = parser.parse_args()
 
     brand = load_brand(args.brand)
@@ -239,6 +264,14 @@ def main() -> None:
     print_html = render_html(build_context(payload["brand"], payload["sections"], social=False))
     social_html = render_html(build_context(payload["brand"], payload["sections"], social=True))
     write_outputs(args.out, payload, print_html, social_html)
+
+    if args.export_print_png:
+        render_assets_with_playwright(args.out / "flyer_print.html", args.out / "flyer_print.png")
+    if args.export_social_png:
+        render_assets_with_playwright(args.out / "flyer_social.html", args.out / "flyer_social.png", width=1080, height=1920)
+    if args.export_print_pdf:
+        render_assets_with_playwright(args.out / "flyer_print.html", args.out / "flyer_print.pdf", pdf=True)
+
     print(f"Wrote flyer files to {args.out}")
 
 
