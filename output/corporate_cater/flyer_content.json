@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "business_name": "Smokey Legend Colorado BBQ",
+    "headline": "Executive Smokehouse Catering",
+    "subhead": "Premium barbecue spreads delivered polished and punctual",
+    "cta": "Schedule a tasting with our pitmaster concierge",
+    "location": "Grand Junction Elks Lodge #575 \u2022 249 South 4th Street",
+    "palette": {
+      "bg": "#1b1b1f",
+      "fg": "#eaeaea",
+      "muted": "#b3b3c1",
+      "accent": "#9d7b4f",
+      "price": "#c99a64"
+    },
+    "style_id": "corporate_cater",
+    "target_audience": "Corporate teams ordering catered lunches or events",
+    "type": {
+      "primary": "Playfair Display Black",
+      "secondary": "Source Sans Pro SemiBold",
+      "body": "Source Sans Pro Regular"
+    },
+    "layout_notes": "Balanced two-column layout with vertical dividers and generous whitespace",
+    "visual_notes": [
+      "Integrate subtle gold keylines and drop shadows for premium feel",
+      "Pair serif headlines with clean sans-serif body copy",
+      "Include icon row for delivery, setup, and dietary accommodations"
+    ]
+  },
+  "sections": {
+    "Combo Meals": [
+      {
+        "item": "3 Brisket Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "3 Pulled Pork Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$15"
+      },
+      {
+        "item": "Wagyu Hot Dog",
+        "description": "1/4 lb wagyu dog on a bun, bag of chips",
+        "price": "$8"
+      },
+      {
+        "item": "Brisket Plate",
+        "description": "1/2 lb smoked prime brisket. choice of 1 side",
+        "price": "$18"
+      },
+      {
+        "item": "Pulled Pork Plate",
+        "description": "1/2 lb smoked & pulled pork butt. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Baby Back Ribs (Half Rack)",
+        "description": "Smoked low & slow. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Brisket Chili (16 oz)",
+        "description": "Ground brisket, chopped & smoked brisket",
+        "price": "$10"
+      }
+    ],
+    "Smoked Meats": [
+      {
+        "item": "Prime Brisket (1 lb)",
+        "description": "Sliced prime brisket, smoked low & slow",
+        "price": "$32"
+      },
+      {
+        "item": "Pulled Pork (1 lb)",
+        "description": "Smoked & pulled pork butt",
+        "price": "$22"
+      },
+      {
+        "item": "Ribs (Full Rack)",
+        "description": "Slow-smoked baby back ribs",
+        "price": "$28"
+      }
+    ],
+    "Sides": [
+      {
+        "item": "Loaded Potato Salad",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Pulled Pork BBQ Beans",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Potato Chips",
+        "description": "Classic Lay's",
+        "price": "TBD"
+      }
+    ]
+  },
+  "style": {
+    "id": "corporate_cater",
+    "target_audience": "Corporate teams ordering catered lunches or events",
+    "headline": "Executive Smokehouse Catering",
+    "subhead": "Premium barbecue spreads delivered polished and punctual",
+    "cta": "Schedule a tasting with our pitmaster concierge",
+    "palette": {
+      "bg": "#1b1b1f",
+      "fg": "#eaeaea",
+      "muted": "#b3b3c1",
+      "accent": "#9d7b4f",
+      "price": "#c99a64"
+    },
+    "type": {
+      "primary": "Playfair Display Black",
+      "secondary": "Source Sans Pro SemiBold",
+      "body": "Source Sans Pro Regular"
+    },
+    "layout": "Balanced two-column layout with vertical dividers and generous whitespace",
+    "visual_notes": [
+      "Integrate subtle gold keylines and drop shadows for premium feel",
+      "Pair serif headlines with clean sans-serif body copy",
+      "Include icon row for delivery, setup, and dietary accommodations"
+    ]
+  }
+}

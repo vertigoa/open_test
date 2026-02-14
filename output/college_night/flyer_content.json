@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "business_name": "Smokey Legend Colorado BBQ",
+    "headline": "Campus Pit Stop",
+    "subhead": "BBQ bowls, sliders, and sides served past midnight",
+    "cta": "Text PITSTOP to 42121 for the midnight deal",
+    "location": "Grand Junction Elks Lodge #575 \u2022 249 South 4th Street",
+    "palette": {
+      "bg": "#120720",
+      "fg": "#f8f7ff",
+      "muted": "#a08be7",
+      "accent": "#ff477e",
+      "price": "#ffd166"
+    },
+    "style_id": "college_night",
+    "target_audience": "Students seeking late-night value combos",
+    "type": {
+      "primary": "Anton",
+      "secondary": "Poppins SemiBold",
+      "body": "Poppins Regular"
+    },
+    "layout_notes": "Asymmetric layout with neon blocks and sticker-style callouts",
+    "visual_notes": [
+      "Layer glitch-inspired gradients behind the headline",
+      "Use sticker badges for combo deals and student discounts",
+      "Animate-ready highlight bars for social cutdowns"
+    ]
+  },
+  "sections": {
+    "Combo Meals": [
+      {
+        "item": "3 Brisket Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "3 Pulled Pork Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$15"
+      },
+      {
+        "item": "Wagyu Hot Dog",
+        "description": "1/4 lb wagyu dog on a bun, bag of chips",
+        "price": "$8"
+      },
+      {
+        "item": "Brisket Plate",
+        "description": "1/2 lb smoked prime brisket. choice of 1 side",
+        "price": "$18"
+      },
+      {
+        "item": "Pulled Pork Plate",
+        "description": "1/2 lb smoked & pulled pork butt. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Baby Back Ribs (Half Rack)",
+        "description": "Smoked low & slow. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Brisket Chili (16 oz)",
+        "description": "Ground brisket, chopped & smoked brisket",
+        "price": "$10"
+      }
+    ],
+    "Smoked Meats": [
+      {
+        "item": "Prime Brisket (1 lb)",
+        "description": "Sliced prime brisket, smoked low & slow",
+        "price": "$32"
+      },
+      {
+        "item": "Pulled Pork (1 lb)",
+        "description": "Smoked & pulled pork butt",
+        "price": "$22"
+      },
+      {
+        "item": "Ribs (Full Rack)",
+        "description": "Slow-smoked baby back ribs",
+        "price": "$28"
+      }
+    ],
+    "Sides": [
+      {
+        "item": "Loaded Potato Salad",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Pulled Pork BBQ Beans",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Potato Chips",
+        "description": "Classic Lay's",
+        "price": "TBD"
+      }
+    ]
+  },
+  "style": {
+    "id": "college_night",
+    "target_audience": "Students seeking late-night value combos",
+    "headline": "Campus Pit Stop",
+    "subhead": "BBQ bowls, sliders, and sides served past midnight",
+    "cta": "Text PITSTOP to 42121 for the midnight deal",
+    "palette": {
+      "bg": "#120720",
+      "fg": "#f8f7ff",
+      "muted": "#a08be7",
+      "accent": "#ff477e",
+      "price": "#ffd166"
+    },
+    "type": {
+      "primary": "Anton",
+      "secondary": "Poppins SemiBold",
+      "body": "Poppins Regular"
+    },
+    "layout": "Asymmetric layout with neon blocks and sticker-style callouts",
+    "visual_notes": [
+      "Layer glitch-inspired gradients behind the headline",
+      "Use sticker badges for combo deals and student discounts",
+      "Animate-ready highlight bars for social cutdowns"
+    ]
+  }
+}

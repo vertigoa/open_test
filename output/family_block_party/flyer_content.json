@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "business_name": "Smokey Legend Colorado BBQ",
+    "headline": "Family BBQ Block Party",
+    "subhead": "Slow-smoked plates, yard games, and flavors kids love",
+    "cta": "Reserve a family platter today",
+    "location": "Grand Junction Elks Lodge #575 \u2022 249 South 4th Street",
+    "palette": {
+      "bg": "#fef3e2",
+      "fg": "#32180d",
+      "muted": "#70412a",
+      "accent": "#ff7b42",
+      "price": "#d14906"
+    },
+    "style_id": "family_block_party",
+    "target_audience": "Families planning relaxed weekend gatherings",
+    "type": {
+      "primary": "Montserrat ExtraBold",
+      "secondary": "Open Sans SemiBold",
+      "body": "Open Sans Regular"
+    },
+    "layout_notes": "Two-column grid with rounded section cards and illustrated smoky borders",
+    "visual_notes": [
+      "Feature playful smoke curls and picnic icons as separators",
+      "Use warm creams and sunset oranges for nostalgic comfort",
+      "Highlight kid-friendly combos with badge-style price tags"
+    ]
+  },
+  "sections": {
+    "Combo Meals": [
+      {
+        "item": "3 Brisket Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "3 Pulled Pork Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$15"
+      },
+      {
+        "item": "Wagyu Hot Dog",
+        "description": "1/4 lb wagyu dog on a bun, bag of chips",
+        "price": "$8"
+      },
+      {
+        "item": "Brisket Plate",
+        "description": "1/2 lb smoked prime brisket. choice of 1 side",
+        "price": "$18"
+      },
+      {
+        "item": "Pulled Pork Plate",
+        "description": "1/2 lb smoked & pulled pork butt. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Baby Back Ribs (Half Rack)",
+        "description": "Smoked low & slow. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Brisket Chili (16 oz)",
+        "description": "Ground brisket, chopped & smoked brisket",
+        "price": "$10"
+      }
+    ],
+    "Smoked Meats": [
+      {
+        "item": "Prime Brisket (1 lb)",
+        "description": "Sliced prime brisket, smoked low & slow",
+        "price": "$32"
+      },
+      {
+        "item": "Pulled Pork (1 lb)",
+        "description": "Smoked & pulled pork butt",
+        "price": "$22"
+      },
+      {
+        "item": "Ribs (Full Rack)",
+        "description": "Slow-smoked baby back ribs",
+        "price": "$28"
+      }
+    ],
+    "Sides": [
+      {
+        "item": "Loaded Potato Salad",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Pulled Pork BBQ Beans",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Potato Chips",
+        "description": "Classic Lay's",
+        "price": "TBD"
+      }
+    ]
+  },
+  "style": {
+    "id": "family_block_party",
+    "target_audience": "Families planning relaxed weekend gatherings",
+    "headline": "Family BBQ Block Party",
+    "subhead": "Slow-smoked plates, yard games, and flavors kids love",
+    "cta": "Reserve a family platter today",
+    "palette": {
+      "bg": "#fef3e2",
+      "fg": "#32180d",
+      "muted": "#70412a",
+      "accent": "#ff7b42",
+      "price": "#d14906"
+    },
+    "type": {
+      "primary": "Montserrat ExtraBold",
+      "secondary": "Open Sans SemiBold",
+      "body": "Open Sans Regular"
+    },
+    "layout": "Two-column grid with rounded section cards and illustrated smoky borders",
+    "visual_notes": [
+      "Feature playful smoke curls and picnic icons as separators",
+      "Use warm creams and sunset oranges for nostalgic comfort",
+      "Highlight kid-friendly combos with badge-style price tags"
+    ]
+  }
+}

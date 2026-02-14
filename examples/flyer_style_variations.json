@@ -1,0 +1,127 @@
+[
+  {
+    "id": "family_block_party",
+    "target_audience": "Families planning relaxed weekend gatherings",
+    "headline": "Family BBQ Block Party",
+    "subhead": "Slow-smoked plates, yard games, and flavors kids love",
+    "cta": "Reserve a family platter today",
+    "palette": {
+      "bg": "#fef3e2",
+      "fg": "#32180d",
+      "muted": "#70412a",
+      "accent": "#ff7b42",
+      "price": "#d14906"
+    },
+    "type": {
+      "primary": "Montserrat ExtraBold",
+      "secondary": "Open Sans SemiBold",
+      "body": "Open Sans Regular"
+    },
+    "layout": "Two-column grid with rounded section cards and illustrated smoky borders",
+    "visual_notes": [
+      "Feature playful smoke curls and picnic icons as separators",
+      "Use warm creams and sunset oranges for nostalgic comfort",
+      "Highlight kid-friendly combos with badge-style price tags"
+    ]
+  },
+  {
+    "id": "tailgate_hype",
+    "target_audience": "Sports fans gearing up for game-day tailgates",
+    "headline": "Game-Day Smoke Show",
+    "subhead": "Ribs, brisket, and sides built to fuel the crowd",
+    "cta": "Call in your tailgate pack before kickoff",
+    "palette": {
+      "bg": "#0d1117",
+      "fg": "#fafafa",
+      "muted": "#9ca3af",
+      "accent": "#f97316",
+      "price": "#facc15"
+    },
+    "type": {
+      "primary": "Bebas Neue",
+      "secondary": "Roboto Condensed Bold",
+      "body": "Roboto Regular"
+    },
+    "layout": "High-contrast single-column hero with bold section banners",
+    "visual_notes": [
+      "Add grungy halftone texture and stadium-light gradients",
+      "Overlap headline with dynamic diagonal stripes to imply motion",
+      "Emphasize platter pricing with scoreboard-inspired numerals"
+    ]
+  },
+  {
+    "id": "corporate_cater",
+    "target_audience": "Corporate teams ordering catered lunches or events",
+    "headline": "Executive Smokehouse Catering",
+    "subhead": "Premium barbecue spreads delivered polished and punctual",
+    "cta": "Schedule a tasting with our pitmaster concierge",
+    "palette": {
+      "bg": "#1b1b1f",
+      "fg": "#eaeaea",
+      "muted": "#b3b3c1",
+      "accent": "#9d7b4f",
+      "price": "#c99a64"
+    },
+    "type": {
+      "primary": "Playfair Display Black",
+      "secondary": "Source Sans Pro SemiBold",
+      "body": "Source Sans Pro Regular"
+    },
+    "layout": "Balanced two-column layout with vertical dividers and generous whitespace",
+    "visual_notes": [
+      "Integrate subtle gold keylines and drop shadows for premium feel",
+      "Pair serif headlines with clean sans-serif body copy",
+      "Include icon row for delivery, setup, and dietary accommodations"
+    ]
+  },
+  {
+    "id": "college_night",
+    "target_audience": "Students seeking late-night value combos",
+    "headline": "Campus Pit Stop",
+    "subhead": "BBQ bowls, sliders, and sides served past midnight",
+    "cta": "Text PITSTOP to 42121 for the midnight deal",
+    "palette": {
+      "bg": "#120720",
+      "fg": "#f8f7ff",
+      "muted": "#a08be7",
+      "accent": "#ff477e",
+      "price": "#ffd166"
+    },
+    "type": {
+      "primary": "Anton",
+      "secondary": "Poppins SemiBold",
+      "body": "Poppins Regular"
+    },
+    "layout": "Asymmetric layout with neon blocks and sticker-style callouts",
+    "visual_notes": [
+      "Layer glitch-inspired gradients behind the headline",
+      "Use sticker badges for combo deals and student discounts",
+      "Animate-ready highlight bars for social cutdowns"
+    ]
+  },
+  {
+    "id": "anytime_classic",
+    "target_audience": "General-purpose flyer for mixed audiences",
+    "headline": "Smokey Legend Barbecue",
+    "subhead": "Handcrafted meats and fire-kissed sides for every occasion",
+    "cta": "Order online or scan for weekly pit specials",
+    "palette": {
+      "bg": "#231712",
+      "fg": "#fdfaf5",
+      "muted": "#d8c0a8",
+      "accent": "#f2542d",
+      "price": "#f4a259"
+    },
+    "type": {
+      "primary": "Oswald Bold",
+      "secondary": "Lato SemiBold",
+      "body": "Lato Regular"
+    },
+    "layout": "Flexible grid that adapts between one and two columns with a strong hero",
+    "visual_notes": [
+      "Blend charred wood textures with clean typographic hierarchy",
+      "Use accent color to guide the eye through sections",
+      "Keep CTA bar anchored at bottom with contrasting band"
+    ]
+  }
+]
