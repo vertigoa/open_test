@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "business_name": "Smokey Legend Colorado BBQ",
+    "headline": "Smokey Legend Barbecue",
+    "subhead": "Handcrafted meats and fire-kissed sides for every occasion",
+    "cta": "Order online or scan for weekly pit specials",
+    "location": "Grand Junction Elks Lodge #575 \u2022 249 South 4th Street",
+    "palette": {
+      "bg": "#231712",
+      "fg": "#fdfaf5",
+      "muted": "#d8c0a8",
+      "accent": "#f2542d",
+      "price": "#f4a259"
+    },
+    "style_id": "anytime_classic",
+    "target_audience": "General-purpose flyer for mixed audiences",
+    "type": {
+      "primary": "Oswald Bold",
+      "secondary": "Lato SemiBold",
+      "body": "Lato Regular"
+    },
+    "layout_notes": "Flexible grid that adapts between one and two columns with a strong hero",
+    "visual_notes": [
+      "Blend charred wood textures with clean typographic hierarchy",
+      "Use accent color to guide the eye through sections",
+      "Keep CTA bar anchored at bottom with contrasting band"
+    ]
+  },
+  "sections": {
+    "Combo Meals": [
+      {
+        "item": "3 Brisket Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "3 Pulled Pork Sliders",
+        "description": "Brioche buns, bread & butter pickle. choice of 1 side",
+        "price": "$15"
+      },
+      {
+        "item": "Wagyu Hot Dog",
+        "description": "1/4 lb wagyu dog on a bun, bag of chips",
+        "price": "$8"
+      },
+      {
+        "item": "Brisket Plate",
+        "description": "1/2 lb smoked prime brisket. choice of 1 side",
+        "price": "$18"
+      },
+      {
+        "item": "Pulled Pork Plate",
+        "description": "1/2 lb smoked & pulled pork butt. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Baby Back Ribs (Half Rack)",
+        "description": "Smoked low & slow. choice of 1 side",
+        "price": "$16"
+      },
+      {
+        "item": "Brisket Chili (16 oz)",
+        "description": "Ground brisket, chopped & smoked brisket",
+        "price": "$10"
+      }
+    ],
+    "Smoked Meats": [
+      {
+        "item": "Prime Brisket (1 lb)",
+        "description": "Sliced prime brisket, smoked low & slow",
+        "price": "$32"
+      },
+      {
+        "item": "Pulled Pork (1 lb)",
+        "description": "Smoked & pulled pork butt",
+        "price": "$22"
+      },
+      {
+        "item": "Ribs (Full Rack)",
+        "description": "Slow-smoked baby back ribs",
+        "price": "$28"
+      }
+    ],
+    "Sides": [
+      {
+        "item": "Loaded Potato Salad",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Pulled Pork BBQ Beans",
+        "description": "",
+        "price": "TBD"
+      },
+      {
+        "item": "Potato Chips",
+        "description": "Classic Lay's",
+        "price": "TBD"
+      }
+    ]
+  },
+  "style": {
+    "id": "anytime_classic",
+    "target_audience": "General-purpose flyer for mixed audiences",
+    "headline": "Smokey Legend Barbecue",
+    "subhead": "Handcrafted meats and fire-kissed sides for every occasion",
+    "cta": "Order online or scan for weekly pit specials",
+    "palette": {
+      "bg": "#231712",
+      "fg": "#fdfaf5",
+      "muted": "#d8c0a8",
+      "accent": "#f2542d",
+      "price": "#f4a259"
+    },
+    "type": {
+      "primary": "Oswald Bold",
+      "secondary": "Lato SemiBold",
+      "body": "Lato Regular"
+    },
+    "layout": "Flexible grid that adapts between one and two columns with a strong hero",
+    "visual_notes": [
+      "Blend charred wood textures with clean typographic hierarchy",
+      "Use accent color to guide the eye through sections",
+      "Keep CTA bar anchored at bottom with contrasting band"
+    ]
+  }
+}
